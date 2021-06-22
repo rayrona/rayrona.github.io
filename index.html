@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  
 
 
 
@@ -19,9 +21,9 @@
 
     <title>My Portfolio</title>
   </head>
-  <body>
+  <body style="background-color:#2D0862">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top"  style="background-color: #290857">
       <div class="container">
         <a class="navbar-brand" href="#home">Ray</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,14 +34,14 @@
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about" style="color: #fff;">About</a>
               
             </li>
             <li class="nav-item" >
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio" style="color: #fff;">Portfolio</a>
             </li>
             <li class="nav-item" >
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" style="color: #fff;">Contact</a>
             </li>
 
           </ul>
@@ -49,21 +51,23 @@
     </nav>
 
 
-    <div class="jumbotron" id="home">
-      <div class="container">
+    <div class="jumbotron" id="home" style="background-color: #2D0862;">
+      <div class="container" >
         <div class="text-center">
           <img src="img/rayuix.png" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Ray Rona</h1>
-          <h3 class="lead">UI/UX Designer</h3>
+          <h1 class="display-4">Ray Rona Epiya</h1>
+          <h3 class="lead" style="color: #fff;">UI/UX Designer</h3>
           <br>
-          <button class="btn-grad">LET'S TALK!</button>
+          <a href="#contact">
+          <button class="btn-grad" >LET'S TALK!</button>
+        </a>
         </div>
       </div>
     </div>
 
 
     <!-- About -->
-    <section class="about" id="about">
+    <section class="about" id="about" style="background-color: #210149;">
       <div class="container">
         <div class="row mb-4">
           <div class="col text-center">
@@ -85,7 +89,7 @@
 
 
     <!-- Portfolio -->
-    <section class="portfolio bg-light" id="portfolio">
+    <section class="portfolio" id="portfolio" >
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col text-center">
@@ -96,9 +100,9 @@
         </div>
         <div class="row">
           <div class="col-md mb-4">
-            <div class="card">
+            <div class="card" >
               <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body" >
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -157,7 +161,7 @@
     
 
     <!-- Contact -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" style="background-color: #210149;">
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col text-center">
@@ -170,7 +174,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-4">
             <div class="card bg-primary text-white mb-4 text-center">
-              <div class="card-body">
+              <div class="card-body" style="background-color: blueviolet;">
                 <h5 class="card-title">Contact Me</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -179,7 +183,7 @@
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
               <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
+              <li class="list-group-item">Jl. Raya Beber No. 35, Majalengka</li>
               <li class="list-group-item">West Java, Indonesia</li>
             </ul>
           </div>
@@ -188,7 +192,7 @@
             
             <form>
               <div class="form-group">
-                <label for="nama">Nama</label>
+                <label for="nama">Name</label>
                 <input type="text" class="form-control" id="nama">
               </div>
               <div class="form-group">
@@ -204,7 +208,7 @@
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
               <div class="form-group">
-                <button type="button" class="btn btn-primary">Send Message</button>
+                <button class="btn-grad" >SEND MESSAGE</button>
               </div>
             </form>
 
@@ -216,18 +220,41 @@
 
 
     <!-- footer -->
-    <footer class="bg-dark text-white mt-5">
+    <!-- <footer class=" text-white mt-5">
       <div class="container">
         <div class="row">
+          
           <div class="col text-center">
+
             <p>Copyright &copy; 2021.</p>
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
 
+    <div class="footer-basic">
+      <footer>
+        <p class="copyright" style="font-size: large;">Reach us on:</p>
+        <br><br>
+          <div class="social">
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-dribbble"></i></a>
+            <a href="#"><i class="icon ion-social-youtube"></i></a>
 
+            
+          </div>
+          
+
+      
+
+          <p class="copyright">Copyright © 2021</p>
+
+         
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
 
 
