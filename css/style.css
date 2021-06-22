@@ -14,3 +14,52 @@ footer {
     min-height: 50px;
     padding-top:12px;
 }
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group {
+    font-family: 'Montserrat', sans-serif;
+}
+.list-group-item {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-grad {
+ 
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30px;
+   border: none;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
