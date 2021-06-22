@@ -10,12 +10,11 @@ section {
     min-height: 420px;
 }
 
-.center {
+.img {
+    margin: 5px auto 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
+}
 
 footer {
     min-height: 50px;
