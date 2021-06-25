@@ -3,11 +3,16 @@ body {
 }
 
 .jumbotron img {
-    width: 25%;
+    width: 20%;
 }
 
 section {
     min-height: 420px;
+}
+
+
+.fa {
+  color: #fff;
 }
 
 .img {
@@ -24,7 +29,7 @@ footer {
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    
+    font-size: 14px;
 }
 
 .nav-item {
@@ -100,7 +105,7 @@ hr.line-orange-center {
  }
 
  .card-body {
-    background-color: #210149;
+    background-color: #232035;
     
  }
 
@@ -187,5 +192,26 @@ hr.line-orange-center {
 
 
 
+  html::-webkit-scrollbar {
+    width: 5px;
+  }
 
-  
+html::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+  }
